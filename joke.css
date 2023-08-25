@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Rubix", sans-serif;
+}
+body{
+    background-color: purple;
+}
+.wrapper{
+   background-color: white;
+   width: 80vmin;
+   padding: 50px 40px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   top: 50%;
+   border-radius: 5px;
+}
+span{
+    display: block;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 30px 0;
+}
+button{
+    display: block;
+    background-color: purple;
+    color: white;
+    font-weight: 400;
+    padding:1rem 2rem;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
